@@ -34,9 +34,10 @@ function init() {
         message: "Please include usage instructions",
       },
       {
-        type: "input",
+        type: "list",
         name: "license",
         message: "Please include license",
+        choices: ["MIT", "Boost", "Mozilla", "Gnu", "None"],
       },
       {
         type: "input",
